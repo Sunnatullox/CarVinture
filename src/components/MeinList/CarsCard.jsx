@@ -79,7 +79,7 @@ export default function CarsCard({ cars,aos , aos_offset}) {
                   <img src={Chesk} alt="..." />
                   {car.sunroof}{" "}
                 </p>
-                <Link to={`/userInfo/${id}`} className="btn btn-primary">
+                <Link to={`/userInfo/${car.id}`} className="btn btn-primary">
                   Rent Now
                 </Link>
               </div>
