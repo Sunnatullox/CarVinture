@@ -17,7 +17,7 @@ export default function  UserInfoCar(props) {
   const getInfo = async () => {
     const response = await fetch(`https://cars-vinture.herokuapp.com/cars/${infoID}`);
     const data = await response.json();
-    return setInfo(data);
+    return setInfo(data)
   };
    return (
     <div>
