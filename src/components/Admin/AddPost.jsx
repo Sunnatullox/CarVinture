@@ -16,7 +16,7 @@ export default function AddPost() {
     e.preventDefault();
 
     const addCard = { title, image, discription, airbug, system, sunroof,};
-    fetch("http://localhost:5000/cars", {
+    fetch("https://cars-vinture.herokuapp.com/cars", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({ ...addCard, updated: new Date(), id:Date.now() }),

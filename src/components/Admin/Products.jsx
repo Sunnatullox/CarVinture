@@ -18,7 +18,7 @@ export default function Products() {
 },[deleteCart])
  */
  function deleteCart (id){
-   fetch(`http://localhost:5000/Car/${id}`, {
+   fetch(`https://cars-vinture.herokuapp.com/Car/${id}`, {
       method: "DELETE",
     }).then(resuult=> {
         resuult.json()
@@ -31,7 +31,7 @@ export default function Products() {
   
 
   const getMesseg = async () => {
-    const response = await fetch("http://localhost:5000/Car");
+    const response = await fetch("https://cars-vinture.herokuapp.com/Car");
     const data = await response.json();
     setProcuts(data);
   };

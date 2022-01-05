@@ -14,7 +14,7 @@ export default function ClientsInfo(props) {
   }, [infoID]);
 
   const getCarsInfo = async () => {
-    const response = await fetch(`http://localhost:5000/messeges/${infoID}`);
+    const response = await fetch(`https://cars-vinture.herokuapp.com/${infoID}`);
     const data = await response.json();
     return setInfo(data);
   };
@@ -22,7 +22,7 @@ export default function ClientsInfo(props) {
 
 
   const deleteCart = async() => {
-    await fetch(`http://localhost:5000/messeges/${infoID}`, {
+    await fetch(`https://cars-vinture.herokuapp.com/${infoID}`, {
         method: "DELETE",
         headers:{"Content-Type":"application/json"
       },

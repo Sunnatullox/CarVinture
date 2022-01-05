@@ -28,7 +28,7 @@ export default function ContactUs() {
           const userImg = localStorage.getItem("img")
   const Messeghendel = (e) => {
     e.preventDefault();
-    fetch("http://localhost:5000/messeges", {
+    fetch("https://cars-vinture.herokuapp.com/messeges", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({

@@ -16,7 +16,7 @@ export default function Carouselinfo(props) {
 
 
   const getCarsInfo = async () => {
-    const response = await fetch(`http://localhost:5000/cars/${infoID}`);
+    const response = await fetch(`https://cars-vinture.herokuapp.com/cars/${infoID}`);
     const data = await response.json();
     return setInfo(data);
   };
@@ -24,7 +24,7 @@ export default function Carouselinfo(props) {
 
 
   const deleteCart = async() => {
-    await fetch(`http://localhost:5000/cars/${infoID}`, {
+    await fetch(`https://cars-vinture.herokuapp.com/cars/${infoID}`, {
         method: "DELETE",
         headers:{"Content-Type":"application/json"
       },

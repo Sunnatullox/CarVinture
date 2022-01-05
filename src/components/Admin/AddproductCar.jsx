@@ -15,7 +15,7 @@ export default function AddproductCar() {
   const AddProductCarshendel = (e) => {
     e.preventDefault();
 
-    fetch("http://localhost:5000/Car", {
+    fetch("https://cars-vinture.herokuapp.com/Car", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({ ...AddCars, updated: new Date() }),

@@ -13,13 +13,13 @@ export default function Messeges() {
 
     
     const getMesseg = async() => {
-        const response = await fetch(`http://localhost:5000/messeges`);
+        const response = await fetch(`https://cars-vinture.herokuapp.com/messeges`);
         const data = await response.json();
         setUsermesseg(data)
     }
 
     function deleteClientInfo (id){
-        fetch(`http://localhost:5000/messeges/${id}`, {
+        fetch(`https://cars-vinture.herokuapp.com/messeges/${id}`, {
            method: "DELETE",
          }).then(resuult=> {
              resuult.json()

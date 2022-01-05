@@ -16,7 +16,7 @@ export default function Products() {
   }, []);
 
   const getCartshendel = async () => {
-    const responts = await fetch("http://localhost:5000/Car");
+    const responts = await fetch("https://cars-vinture.herokuapp.com/Car");
     const data = await responts.json();
     setCarts(data);
   };
