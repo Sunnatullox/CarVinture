@@ -23,7 +23,7 @@ export default function Mein() {
     },[])
 
     const getCars = async()=> {
-        const response = await fetch("http://localhost:5000/cars");
+        const response = await fetch("https://cars-vinture.herokuapp.com/cars");
         const data =  await response.json();
         setCars(data)
     }
