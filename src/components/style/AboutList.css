@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fenix&family=Josefin+Sans:ital,wght@0,600;1,400&family=Mulish:ital,wght@0,400;0,600;1,300&display=swap');
+
+.about
+{
+    font-family: Mulish;
+    font-weight: bold;
+}
+
+@media screen and (min-width:280px ) and (max-width:765px) {
+    #Area .about{
+        display: flex;
+        justify-content: center;
+        font-size: 1rem !important;
+    }
+    #Area p{
+        font-size: 0.8rem;
+    }
+    .cardsabout img{
+        width: 100%;
+    }
+    .cardsabout .abouts, .abou{
+        font-size: 1rem;
+       /*  background-color: rgb(138, 138, 136); */
+    }
+}

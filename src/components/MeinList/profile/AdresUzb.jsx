@@ -1,0 +1,46 @@
+
+    export const AdresUzb= [
+       {
+           name:'Toshkent'
+       },
+       {
+           name:'Nukus'
+       },
+       {
+           name:'Sirdaryo'
+       },
+       {
+           name:'Samarqand'
+       },
+       {
+           name:'Fargona'
+       },
+       {
+           name:'Namangan'
+       },
+       {
+           name:'Andijon'
+       },
+       {
+           name:'Nukus'
+       },
+       {
+           name:'Buhoro'
+       },
+       {
+           name:'Horazim'
+       },
+       {
+           name:'Jizzah'
+       },
+       {
+           name:'Navoi'
+       },
+       {
+           name:'Qashqadaryo'
+       },
+       {
+           name:'Surhandaryo'
+       },
+   ] 
+

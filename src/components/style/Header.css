@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;1,400&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fenix&family=Josefin+Sans:ital,wght@0,600;1,400&display=swap');
+
+
+.contants .navbar-collapse.collapse {
+  display: block;
+}
+@media (max-width:991px){
+  .contants .navbar-collapse.collapse {
+    overflow: hidden;
+  }
+  .contants .navbar-collapse.shownav {
+    height: 100vh !important;
+    
+    background: white 100% ;
+    margin-top: 1.6rem;
+  }
+  .contants .navbar-collapse.shownav li{
+    padding: 10px;
+  }
+  .contants .manuli{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+}
+.contants .navbar-collapse{
+  transition: .6s all ease-in-out ;
+  height: 0 !important;
+}
+
+*,
+*::before,
+*::after
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.Car{
+    border-radius:5px;
+    padding: 5px;
+    position: relative;
+    font-size: 25px !important;
+    text-decoration: none;
+    margin-top:0rem !important;
+    font-family:Fenix;
+ 
+}
+.Car:hover{
+  box-shadow:
+  4px 1px 6px rgba(0, 0, 0, 0.035),
+  6.6px 1.8px 23.5px rgba(0, 0, 0, 0.046),
+  22px 6px 78px rgba(0, 0, 0, 0.07);
+}
+
+
+.navbar .sign_up
+{   
+    margin-top: -0.3rem !important;
+    background-color: #1F4590;
+    height: 2.5rem;
+    margin-left: 28px !important;
+    color: white;
+}
+
+
+
+.navbar
+{
+  height: 80px;
+  background: transparent;
+  justify-content: center;
+  align-items:center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  border: none;
+  padding-bottom: 10px;
+  
+}
+.navbar ul
+{
+  justify-content: end;
+  margin-top: 0.8rem;
+}
+.navbar.active
+{
+  background: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+  border-radius: 2px;
+}
+  
+.navbar.active.cars{
+  color:#fff;
+}
+  .main-nav {
+    list-style-type: none;
+    display: none;
+  }
+  
+  .nav-links,
+  .logo {
+    text-decoration: none;
+    color: black;
+  }
+
+  
+   .active .logo:hover{
+    color: #fff;
+  } 
+   .active .nav-links:hover{
+    color: #fff;
+  } 
+  .active .sign_up
+  {
+    background: transparent;
+    color: #000;
+    border: 1px #000 solid ;
+  }
+  .navbar .sign_up:hover{
+    color: white;
+    border: 1px #fff solid;
+  }
+  .main-nav li {
+    text-align: center;
+    margin: 15px auto;
+  }
+  
+  .logo {
+    display: inline-block;
+    font-size: 32px;
+    margin-left: 20px;
+    margin-top: -25px;
+  }
+  
+  .navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color:black;
+    font-size: 24px;
+  }
+  
+  #chkToggle {
+    display: none;
+  }
+  
+  
+  
+  @media screen and (min-width: 768px) {
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      height: 70px;
+      align-items: center;
+    }
+  
+    #chkToggle:checked + ul.main-nav {
+      display: flex;
+    }
+  
+    .main-nav {
+      display: flex;
+      margin-right: 30px;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+  
+    .main-nav li {
+      margin: 0;
+    }
+  
+    .borbot {
+      margin-left:40px;
+      position: relative;
+      padding: 10px;
+      font-size: 17px;
+      width: 50px;
+      border-radius:5px;
+      letter-spacing: 0.5px;
+     
+    }
+    .borbot:hover{
+      box-shadow:
+      4px 1px 6px rgba(0, 0, 0, 0.035),
+      6.6px 1.8px 23.5px rgba(0, 0, 0, 0.046),
+      22px 6px 78px rgba(0, 0, 0, 0.07);
+    }
+  
+    .navbar-toggle {
+      display: none;
+    }
+  }
+
+
+  
+  .navbar .borbot::after
+  {
+    content:"";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom:-10px;
+    transition: 0.3s;
+  }
+
+  .Car::after
+  {
+    margin-top: -12px !important;
+    content:"";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom:-10px;
+    transition: 0.3s;
+    
+  }
+
+  .navbar .borbot:hover:after
+  {
+    width: 100%;
+  }
+
+  .navbar .Car:hover:after{
+    width: 100%;
+  }

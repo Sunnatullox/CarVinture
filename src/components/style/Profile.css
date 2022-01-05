@@ -1,0 +1,51 @@
+.profil
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbr
+{
+  background-color:white;
+}
+.NavBrands
+{
+    position: relative;  
+    
+}
+
+.NavBrands::after
+{
+  content:"";
+  position: absolute;
+  background-color: #060b26;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom:-10px;
+  transition: 0.3s;
+  
+  
+}
+
+.NavBrands:hover:after
+{
+  width: 100%;
+}
+.graden {
+  background: linear-gradient(
+    106.34deg,
+    rgba(105, 105, 105, 0.315) 31.58%,
+    rgba(0, 0, 0, 0) 84.47%
+  );
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  
+}
+
+  
+ .backgraund img{
+  width:100%;
+  filter:brightness(60%);
+} 

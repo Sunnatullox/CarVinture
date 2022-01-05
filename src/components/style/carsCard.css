@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Fenix&family=Josefin+Sans:ital,wght@0,600;1,400&family=Mulish:wght@400;600&display=swap');
+
+.fature_cars
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.cards
+{
+    margin-top: 100px;
+    display: flex;
+}
+.cardshadow
+{   height: 100%;
+    width: 95%;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+#cars .carousel-control .carousel-control-next-icon {
+    display: flex;
+    justify-content: center;
+    margin-left:10px !important;
+}
+#cars .carousel-control .carousel-control-prev-icon{
+    display: flex;
+    justify-content: center;
+    margin-left:5px !important;
+}
+#cars .Slider{
+    padding: 0 !important;
+    right: 1rem;
+}
+#cars .cardshadow .carimg{
+    display: grid;
+    margin-left: 1.5rem !important;
+    width: 80% !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+#cars .cardshadow {
+    width: 90% !important;
+}
+
+@media screen and (min-width:767px ) and (max-width:1090px) {
+    
+    #cars .fature_cars{
+        display: flex;
+        font-size: 1.6rem;
+    }
+    
+    #cars .carousel-control span{
+        width: 20px;
+        margin-right: 1rem !important;
+    }
+    #cars .carousel-control{
+        width: 2rem;
+    }   
+    #cars .cardshadow .carimg{
+        display: flex;
+        width: 80% !important;
+    }
+   #cars .card-body .card-title{
+       display: grid;
+       justify-content: center;
+       text-align: center;
+        font-size: 0.9rem !important;
+    }
+
+    #cars .card-body .card-text{
+        display: grid;
+        justify-content: start;
+        align-items: center;
+        font-size: 0.6rem;
+    }
+    #cars .card-body .card-text img{
+        width: 1rem;
+        display: grid;
+        justify-content: start;
+        align-items: center;
+        
+    }
+    #cars .card-body a{
+        font-size: 0.5rem;
+        padding: 5px;
+    }
+
+
+}
+@media screen and (min-width:533px ) and (max-width:767px) {
+   
+   
+   
+    #cars .fature_cars{
+        display: flex;
+        font-size: 1rem;
+    }
+    
+    #cars .carousel-control span{
+        width: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    #cars .carousel-control{
+        width: 1.8rem;
+        height: 1.8rem;
+    }   
+    #cars .cardshadow .carimg{
+        display: flex;
+        width: 80% !important;
+    }
+   #cars .card-body .card-title{
+       display: grid;
+       justify-content: center;
+       text-align: center;
+        font-size: 0.9rem !important;
+    }
+
+    #cars .card-body .card-text{
+        display: grid;
+        justify-content: start;
+        align-items: center;
+        font-size: 0.6rem;
+    }
+    #cars .card-body .card-text img{
+        width: 1rem;
+        display: grid;
+        justify-content: start;
+        align-items: center;
+    }
+    #cars .card-body a{
+        font-size: 0.5rem;
+        padding: 5px;
+    }
+
+}
+
+@media screen and (min-width:250px ) and (max-width:533px) {
+    #cars .fature_cars{
+        display: flex;
+        font-size: 0.8rem;
+    }
+    
+    #cars .carousel-control span{
+        width: 15px;
+        margin-top: -5px;
+    }
+    #cars .carousel-control{
+        width: 1.5rem;
+        height: 1.5rem;
+    }   
+    #cars .cardshadow .carimg{
+        display: flex;
+        width: 60% !important;
+    }
+   #cars .card-body .card-title{
+       display: grid;
+       justify-content: center;
+       text-align: center;
+        font-size: 0.5rem !important;
+    }
+
+    #cars .card-body .card-text{
+        display: grid;
+        justify-content: start;
+        align-items: center;
+        font-size: 0.4rem;
+        margin: 0;
+        padding: 0;
+    }
+    #cars .card-body .card-text img{
+        width: 0.6rem;
+        display: grid;
+        justify-content: start;
+        align-items: center;
+    }
+    #cars .card-body a{
+        font-size: 0.3em;
+        padding: 1px;
+    }
+}

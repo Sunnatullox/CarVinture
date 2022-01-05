@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fenix&family=Josefin+Sans:ital,wght@0,600;1,400&family=Mulish:ital,wght@0,400;0,600;1,300&display=swap');
+
+
+.store
+{
+    font-family:Mulish;
+    font-weight: bold;
+}
+#StoreList .storebtn{
+    background: rgba(31, 69, 144, 1);
+    border-radius: 15px;
+    width: 6rem;
+    height: 2.3rem;
+    margin-top: -2rem;
+}
+@media screen and (min-width:280px ) and (max-width:768px) {
+    #Stories .store{
+        font-size: 1rem;
+    }
+    #StoreList .cardimgm .imgm{
+        width: 15rem !important;
+        margin-left: 4rem;
+    }
+    #StoreList .cardimgm .card-body .card-title{
+        font-size: 0.6rem;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    #StoreList .cardimgm .card-text{
+        font-size: 0.5rem;
+        display: flex;
+        align-items: center !;
+        text-align: center !important;
+        justify-content: center !important;
+    }
+    #StoreList .storebtn{
+        font-size: 0.4rem;
+        width: 3rem;
+        padding:0;
+        height: 15px;
+        margin-left: 4rem;
+    }
+    #StoreList .moriem{
+        font-size: 0.6rem;
+        margin-left: 4rem;
+    }
+    #StoreList .moriem img{
+        width: 0.6rem;
+    }
+}

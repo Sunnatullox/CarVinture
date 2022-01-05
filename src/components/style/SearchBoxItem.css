@@ -1,0 +1,79 @@
+
+.search{
+    margin-left:auto;
+}
+.Sear
+{
+    text-align: center;
+    display: flex;
+    width: 500px;
+    margin-left: rem;
+    margin-top: 1rem;
+}
+.searchbtns
+{
+    margin-left: 35rem;
+    position:absolute !important;
+}
+.SearchList
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15rem;
+    display: block;
+    margin-inline: auto;
+    margin-top: -1rem;
+    width: 45rem;
+    height:7rem;
+    background: #fff;
+    border: none;
+    border-radius: 5rem;
+}
+#Search{
+    background: rgba(31, 69, 144, 1);
+    height: 30rem
+}
+@media screen and (min-width:280px ) and (max-width:765px) {
+    #Search{
+        margin-top: 20rem;
+        height:15rem;
+        position: sticky;
+    }
+    #Search h1{
+        font-size: 1rem;
+    }
+    #Search .SearchList{
+        display: grid;
+        justify-content: inherit;
+        margin-block-start: auto !important;
+        margin-inline: auto;
+        margin-top: -1rem !important;
+        width: 20rem;
+        height: 3.4rem !important;
+    }
+    #Search .SearchList .Sear{
+        width: 13rem !important;
+        margin: 10px;
+        padding: 0;
+    }
+    #Search .SearchList .search h6{
+        font-size: 0.4rem !important;
+    }
+    #Search .SearchList .search select{
+        padding: 5px;
+        font-size: 0.4rem;
+    }
+    #Search .searchbtns {
+        display: grid;
+        margin-top: 15px !important;
+        margin-left:14.5rem !important;
+    }
+    
+    #Search .searchbtns .carbtn{
+        font-size: 0.3rem !important;
+        cursor:pointer;
+        padding: 5px;
+    }
+}
