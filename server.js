@@ -1,5 +1,5 @@
 const jsonServer= require("json-server");
-const server =jsonServer();
+const  server =jsonServer.create();
 const router = jsonServer.router("./db.json");
 const midldleweres = jsonServer.defaults({
     static:"./build"
@@ -15,5 +15,5 @@ server.use(jsonServer.rewriter({
 server.use(router);
 
 server.listen(port, ()=> {
-    console.log(`Server is running on ${portheroc}`);
+    console.log(`Server is running on ${port}`);
 })
